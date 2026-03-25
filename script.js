@@ -117,7 +117,7 @@
             requestAnimationFrame(animate);
             
             // Gently rotate the balloon heart
-            balloonHeart.rotation.y += 0.005; 
+            balloonHeart.rotation.y += 0.025; 
 
             // Shift the color gradually (HSL color wheel)
             hue += 0.0015; 
