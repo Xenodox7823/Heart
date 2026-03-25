@@ -1,0 +1,39 @@
+        /* CSS Styling */
+        body { 
+            margin: 0; 
+            overflow: hidden; 
+            background-color: #050505; /* Deep dark background */
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            font-family: sans-serif;
+        }
+        canvas { 
+            display: block; 
+        }
+
+        /* Camera Reset Button positioned at bottom right */
+        #reset-camera {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            padding: 12px 20px;
+            background-color: #1a1a1a;
+            color: #eeeeee;
+            border: 1px solid #333;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+            transition: all 0.2s ease-in-out;
+            z-index: 100;
+        }
+
+        #reset-camera:hover {
+            background-color: #ff2a5f;
+            border-color: #ff2a5f;
+            color: white;
+            transform: translateY(-2px);
+        }
